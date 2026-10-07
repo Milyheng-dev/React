@@ -1,0 +1,50 @@
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 20px;
+}
+.card1 {
+  max-width: 250px;
+  height: 300px;
+  border-radius: 10px;
+  border: 6px solid #b7a4a4;
+  background-color: #a49a9a;
+  margin: 10px;
+  box-shadow: 5px 5px 5px;
+  padding: 10px;
+}
+.card1 img {
+  height: 100px;
+  width: 200px;
+}
+
+.student-info {
+  color: #f9f8f8;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  box-shadow: 5px 5px 5px;
+  background-color: #8b5454;
+  font-size: 20px;
+}
+
+.Welcome-message {
+  color: #f9f8f8;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  box-shadow: 5px 5px 5px;
+  background-color: #8b5454;
+  font-size: 20px;
+  text-align: center;
+   height: 300px;
+}
+
+.false-message {
+  color: #f9f8f8;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  box-shadow: 5px 5px 5px;
+  background-color: #8b5454;
+  font-size: 20px;
+  text-align: center;
+  height: 300px;
+}
