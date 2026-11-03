@@ -3,9 +3,13 @@ function Button() {
     const handleClick = () => {
         console.log("OUch");
     }
+
+    const haha = (e) => {
+        console.log(e);
+    }
       
 
-    return (<Button onClick={handleClick}>List of items</Button>);
+    return (<Button onClick={haha(e)}>List of items</Button>);
 }
 
 export default Button;
